@@ -1,0 +1,24 @@
+﻿  CParser.cpp
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(29): warning C4251: 'CParser::m_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CParser'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xstring(4373): note: vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(7): warning C4005: 'DLL_CLASS': redefinición de macro
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(19): note: vea la definición anterior de 'DLL_CLASS'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(10): warning C4273: 'CParser::CParser': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(62): note: vea la definición anterior de '{ctor}'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(18): warning C4273: 'CParser::~CParser': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(63): note: vea la definición anterior de '{dtor}'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(23): warning C4273: 'CParser::reset': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(66): note: vea la definición anterior de 'reset'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(82): warning C4273: 'CParser::normalIndicesParser': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(58): note: vea la definición anterior de 'normalIndicesParser'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(89): warning C4018: '<': no coinciden signed/unsigned
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(100): warning C4273: 'CParser::loadFromFile': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(55): note: vea la definición anterior de 'loadFromFile'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(116): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'size_t'; posible pérdida de datos
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(131): warning C4273: 'CParser::parser': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(56): note: vea la definición anterior de 'parser'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(175): warning C4273: 'CParser::parser': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(57): note: vea la definición anterior de 'parser'
+c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.cpp(220): warning C4273: 'CParser::loader': vinculación de DLL incoherente
+  c:\users\funka.laptop-mg70291d\desktop\objectloaderdll\objectloaderdll\cparser.h(67): note: vea la definición anterior de 'loader'
+  objectLoaderDLL.vcxproj -> C:\Users\funka.LAPTOP-MG70291D\Desktop\objectLoaderDLL\Debug\objectLoaderDLL.dll
